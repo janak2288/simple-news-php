@@ -11,7 +11,7 @@
 <input type="password" name="password" class="mt-1 p-2 rounded-lg w-full" placeholder="password" required>
  </div>
 
-<a href="index.php" class="bg-indigo-600 text-white p-2 rounded-lg w-full block text-center hover:bg-red-600"> Login </a>
+<a href="admin/" class="bg-indigo-600 text-white p-2 rounded-lg w-full block text-center hover:bg-red-600"> Login </a>
 
          </form>
     </div>
