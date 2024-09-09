@@ -23,7 +23,7 @@
 <li class="my-2 text-center">
 <a href="index.php" class="block p-2 text-lg font-bold  hover:bg-indigo-200 rounded text-indigo-600"> Home  </a> </li>
 <li class="my-2 text-center">
-<a href="index.php" class="block p-2 text-lg font-bold  hover:bg-indigo-200 rounded text-indigo-600"> Catogories  </a> </li>
+<a href="category.php" class="block p-2 text-lg font-bold  hover:bg-indigo-200 rounded text-indigo-600"> Catogories  </a> </li>
 <li class="my-2 text-center">
 <a href="index.php" class="block p-2 text-lg font-bold  hover:bg-indigo-200 rounded text-indigo-600"> Notification  </a> </li>
 <li class="my-2 text-center">
