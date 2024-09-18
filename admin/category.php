@@ -4,7 +4,7 @@
 <hr class="h-1 bg-indigo-100">
 
 <div class="text-right my-5"> 
-<a href="" class="bg-indigo-600 p-2 px-3 rounded hover:bg-red-600 text-white focus:ring-2">
+<a href="createcategory.php" class="bg-indigo-600 p-2 px-3 rounded hover:bg-red-600 text-white focus:ring-2">
 <span class="dashicons dashicons-plus"></span> Add Category </a></div>
 
 
