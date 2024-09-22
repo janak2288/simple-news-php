@@ -6,7 +6,7 @@
 <h1  class="text-center md:text-3xl text-2xl font-bold text-indigo-600"> Create New Category</h1>
 <div class="mb-2"> 
 <label class="text-xl"> Priority</label>
-<input type="text" name="priority" class="w-full  ring-slate-800 ring-1 rounded p-2 my-2 focus:ring-indigo-600" placeholder="Priority">
+<input type="number" name="priority" class="w-full  ring-slate-800 ring-1 rounded p-2 my-2 focus:ring-indigo-600" placeholder="Priority">
  </div>
 
 

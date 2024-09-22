@@ -12,15 +12,30 @@
 <thead> 
 
 <tr> 
-<th class="border bg-indigo-100 border-indigo-600">SN  </th> 
+<th class="border bg-indigo-100 border-indigo-600">Priority  </th> 
 <th class="border bg-indigo-100 border-indigo-600"> Category Name </th>
 <th class="border bg-indigo-100 border-indigo-600"> Action </th> 
 </tr></thead>
 
 <tbody class="text-center" > 
+<?php
+include '../includes/dbconnection.php';
+
+$sql = "SELECT * FROM categories";
+
+$result = mysqli_query($conn, $sql);
+
+if (mysqli_num_rows($result) > 0) {
+  while ($row = mysqli_fetch_assoc($result)) {
+
+?>
+
+
+
+
 <tr> 
-<td class="border border-indigo-600 p-2"> 1</td>
-<td class="border border-indigo-600 p-2"> News</td>
+<td class="border border-indigo-600 p-2"> <?= $row['priority'] ?></td>
+<td class="border border-indigo-600 p-2"> <?= $row['name'] ?></td>
 <td class="border border-indigo-600 p-2 space-x-3"> 
 
 <a href="" class="bg-green-100 text-green-600 border border-green-600 rounded p-1 px-2"> <span class="dashicons dashicons-edit"></span> Edit </a> 
@@ -31,6 +46,8 @@
 </td>
 
 </tr>
+
+<?php } } ?>
 </tbody>
 
 

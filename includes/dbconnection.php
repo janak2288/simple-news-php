@@ -1,11 +1,11 @@
 <?php
 $host = 'localhost';
 $username = 'root';
-$pw='';
+$pw = '';
 $database = 'smcnews';
-$conn = mysql_connect($host,$username,$pw,$databse);
-if($conn){
-	die("Connection failed".mysqli_connect_error());
-}
 
-?>
+$conn = mysqli_connect($host, $username, $pw, $database);
+
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
